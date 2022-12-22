@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e32862f12d984a4593713f9b452c990, type: 3}
+  m_Name: Spawner
+  m_EditorClassIdentifier: 
+  wave1Enemies:
+  - {fileID: 4679117661947712064, guid: 9e6cdfdfa9955554aaa145e237d87a28, type: 3}
+  - {fileID: 4692156964709915122, guid: a9f180af0ceeecc41ac3a108a869e649, type: 3}
+  wave1probabilities: 8403000064000000
+  wave1Cooldown: 030000000a000000
+  wave2Enemies:
+  - {fileID: 1827629865255638474, guid: 2b95b8c937251bf4a862469a23da16b2, type: 3}
+  - {fileID: 5747127124191815510, guid: fd25f3d6e5c08254f959420d5a5913c4, type: 3}
+  wave2probabilities: 8403000064000000
+  wave2Cooldown: 030000000a000000
+  wave3Enemies:
+  - {fileID: 100720, guid: 957ae2aa07b30dc4b84032c2d7e614dc, type: 3}
+  - {fileID: 130964, guid: 893d7e1a3f05f664d8730a6ae0424cc3, type: 3}
+  wave3probabilities: 8403000064000000
+  wave3Cooldown: 0100000001000000
